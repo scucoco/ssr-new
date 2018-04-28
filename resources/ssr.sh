@@ -48,8 +48,7 @@ ssr_link_qr(){
 	SSRobfs=$(echo ${ss_obfs} | sed 's/_compatible//g')
 	SSRPWDbase64=$(urlsafe_base64 "${ss_password}")
 	#remarkBase64=$(urlsafe_base64 "gfw-breaker [${ss_server_ip}]")
-	#remarkBase64=$(urlsafe_base64 "账号更新 http://truth.atspace.eu/")
-	remarkBase64=$(urlsafe_base64 "账号更新 https://gfw-breaker.github.io")
+	remarkBase64=$(urlsafe_base64 "账号更新 https://github.com/no-gfw/ssr-new")
 	SSRbase64=$(urlsafe_base64 "${ss_server_ip}:${ss_server_port}:${SSRprotocol}:${ss_method}:${SSRobfs}:${SSRPWDbase64}/?remarks=${remarkBase64}")
 	SSRurl="ssr://${SSRbase64}"
 	qrencode -o $qr_folder/ssr.png -s 2 "${SSRurl}"
@@ -74,7 +73,7 @@ write_configuration(){
     "obfs": "${ss_obfs}",
     "obfs_param": "",
     "speed_limit_per_con": 200,
-    "speed_limit_per_user": 0,
+    "speed_limit_per_user": 2000,
 
     "additional_ports" : {},
     "timeout": 120,
