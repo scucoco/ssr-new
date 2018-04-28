@@ -2,7 +2,7 @@
 
 友情提示：SS服务器可能遭到GFW封锁, 届时将重建服务器并更新账号信息
 
-##### [一键翻墙软件](https://github.com/gfw-breaker/nogfw/blob/master/README.md) &nbsp;&nbsp;&nbsp;  [免费Youtube代理](https://github.com/gfw-breaker/heroku-node-proxy#--end--) &nbsp;&nbsp;&nbsp; [免费Web代理](https://github.com/gfw-breaker/you2php-heroku#--end--)
+##### [一键翻墙软件](https://github.com/gfw-breaker/nogfw/blob/master/README.md) &nbsp;&nbsp;&nbsp; [免费Youtube代理](https://github.com/gfw-breaker/you2php-heroku#--end--)&nbsp;&nbsp;&nbsp; [免费Web代理](https://github.com/gfw-breaker/heroku-node-proxy#--end--) 
 
 
 #####  无需翻墙直接访问（反向代理）
