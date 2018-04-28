@@ -19,9 +19,9 @@ IP地址：`server_ip`
 ##### 您也可以粘贴SS/SSR地址或通过扫描二维码自动将账号添加到客户端
 
 ######  SS地址： `ss_link`   
-######  SS二维码:  <a href="http://server_ip/info/ss.html" target="_blank">http://server_ip/info/ss.html</a>
+######  SS二维码:  <a href="http://server_ip:10080/info/ss.html" target="_blank">http://server_ip:10080/info/ss.html</a>
 
 ######  SSR地址： `ssr_link`     
-######  SSR二维码:  <a href="http://server_ip/info/ssr.html" target="_blank">http://server_ip/info/ssr.html</a>
+######  SSR二维码:  <a href="http://server_ip:10080/info/ssr.html" target="_blank">http://server_ip:10080/info/ssr.html</a>
 
 
